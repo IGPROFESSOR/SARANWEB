@@ -1,0 +1,141 @@
+/* Global reset and font setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5; /* Light professional background */
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header section */
+  header {
+    background-color: #1f2937; /* Dark blue-gray */
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Navigation bar */
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #111827;
+    padding: 0.5rem 1rem;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    transition: background 0.3s ease;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    background-color: #374151;
+    border-radius: 5px;
+  }
+  
+  /* Main container */
+  main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  /* Card-style sections */
+  .card {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Section headings */
+  h2 {
+    margin-bottom: 1rem;
+    color: #1f2937;
+  }
+  
+  /* Skills list */
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    list-style: none;
+  }
+  
+  .skills-list li {
+    background-color: #e5e7eb;
+    padding: 0.75rem;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+  
+  /* Project boxes */
+  .project {
+    background-color: #f9fafb;
+    border-left: 5px solid #2563eb;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #1d4ed8;
+  }
+  
+  /* Form inputs */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  input,
+  textarea {
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #111827;
+    color: white;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
